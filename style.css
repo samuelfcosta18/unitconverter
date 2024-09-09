@@ -1,0 +1,36 @@
+body {
+    background-color: #c8a928;
+    text-align: center;
+    border: 1px solid #000;
+    margin: 10px 400px 0 400px;
+}
+button {
+    border: 1px solid #00f;
+    background: #f00;
+}
+textarea {
+    resize: none;
+}
+select {
+    border: transparent;
+    background: #ffcb00;
+    text-align: center;
+}
+optgroup#length {
+    color: #f00;
+}
+optgroup#speed {
+    color: #198605;
+}
+optgroup#energy {
+    color: #ff0;
+}
+optgroup#data {
+    color: #00f;
+}
+input {
+    background: transparent;
+    border: 1px solid #0051ff;
+    height: 4vh;
+    width: 10vw;
+}

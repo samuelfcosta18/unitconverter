@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Unit Converter</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<label for="converter"> Choose a measurement type</label>
+<br>
+    <select id="converter">
+        <optgroup label="Length" id="length">
+            <option value="mtm">miles to meters</option>
+            <option value="fti">feet to inches</option>
+            <option value="mtk">miles to kilometers</option>
+        </optgroup>
+        <optgroup label="Speed" id="speed">
+            <option value="mtks">miles per hour to kilometers per hour</option>
+            <option value="ftmps">feet per second to meter per second</option>
+        </optgroup>
+        <optgroup label="Energy" id="energy">
+            <option value="ctj">Calorie to Joule</option>
+            <option value="kctkj">Kilocalorie to Kilojoule</option>
+        </optgroup>
+        <optgroup label="Data" id="data">
+            <option value="btb">Bit to Bite</option>
+            <option value="btKb">Kilobyte to Byte</option>
+            <option value="btKi">Kibibyte to Byte </option>
+            <option value="KitoMg">Megabyte to Kilobyte</option>
+            <option value="KitMe">Mebibyte to Kilobyte</option>
+            <option value="MetG">Gigabyte to Megabyte</option>
+            <option value="MetGi">Gibibyte to Mebibyte</option>
+        </optgroup>
+    </select>
+    <br>
+    <input type="text" id="entrada" placeholder="Insert the value here" value="">
+        <br>
+    <button type="button" onclick="convert()">Convert</button>
+<br>
+<textarea cols="20" rows="10" id="text" readonly></textarea>
+</body>
+</html>
