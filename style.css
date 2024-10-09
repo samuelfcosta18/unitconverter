@@ -1,7 +1,7 @@
 body {
     background-color: #c8a928;
     text-align: center;
-    border: 1px solid #000;
+
     margin: 10px 400px 0 400px;
 }
 button {
@@ -33,4 +33,30 @@ input {
     border: 1px solid #0051ff;
     height: 4vh;
     width: 10vw;
+    border-radius: 5%;
+}
+.mobile {
+    display: none;
+}
+@media only screen and (max-device-width: 480px) and (orientation: portrait) {
+    body {
+        height: 400px;
+    }
+    select {
+        transform: scale(300%);
+    }
+    label {
+        font-size: 40px;
+    }
+    input {
+        transform: scale(300%);
+        height: 1vh;
+        width: 15vw;
+    }
+    .mobile {
+        display: block;
+    }
+    textarea {
+        transform: scale(200%);
+    }
 }

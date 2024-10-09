@@ -9,6 +9,8 @@
 <body>
 <label for="converter"> Choose a measurement type</label>
 <br>
+<br class="mobile">
+<br class="mobile">
     <select id="converter">
         <optgroup label="Length" id="length">
             <option value="mtm">miles to meters</option>
@@ -34,10 +36,16 @@
         </optgroup>
     </select>
     <br>
-    <input type="text" id="entrada" placeholder="Insert the value here" value="">
+    <br>
+    <br class="mobile">
+    <br class="mobile">
+    <br class="mobile">
+    <input type="text" id="entrada" placeholder="Insert the value here" value="" oninput="convert()">
         <br>
-    <button type="button" onclick="convert()">Convert</button>
-<br>
-<textarea cols="20" rows="10" id="text" readonly></textarea>
+        <br>
+        <br class="mobile">
+        <br class="mobile">
+        <br class="mobile">
+<textarea cols="20" rows="5" id="text" readonly></textarea>
 </body>
 </html>
