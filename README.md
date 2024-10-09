@@ -2,4 +2,10 @@
 
 This is a general-use unit converter made with JavaScript.
 
+How to use the site:
+<ol>
+  <li>Choose the conversion in the select tag.</li>
+  <li>Enter the amount to be converted in the input field.</li>
+</ol>
+
 You can access the demo site <a href="https://samuelfcosta18.github.io/unitconverter/" target="_blank"> here. </a>
